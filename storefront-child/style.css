@@ -1,0 +1,596 @@
+/*
+Theme Name: MOSTWANTED - BRAINDEAD!
+Template: storefront
+Author: Jakub Stelzer
+Version: 1.0.1682332433
+Updated: 2023-04-24 10:33:53
+*/
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+body{
+    font-family: 'Zen Dots', cursive;
+}
+
+
+/*header*/
+#hlava{
+    height: 70px;
+    width: 100%;
+}
+.link_top{
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/*HERO IMAGE*/
+.entry-content{
+    width: 100VW !important;
+}
+.hero_image{
+    width: 100%;
+    height: 90%;
+    margin: 0 !important; 
+    padding: 0 !important;
+    overflow: hidden;
+    position: relative;
+}
+.text-over-hero-left{
+    height: 715px; 
+    position:absolute;
+    margin-top: 4%;
+}
+.tohl-one{
+    width: 90%;
+    height: 32%;
+    background-color: rgb(0, 0, 0, 0.4);
+    box-shadow: inset 0px 0px 2px 2px cyan;
+}
+.tohl-one p{
+    color: white;
+    height: 30px;
+    text-align: center;
+}
+.tohl-one-name{
+  font-size: 30px;
+  padding-top:3%;
+  margin:0;
+  margin-bottom: 2%;
+}
+.tohl-one-track{
+    font-size: 60px;
+    padding-top:3% ;
+    margin:0;
+    margin-bottom: 9%;
+}
+.tohl-one-feat{
+    padding-top:3% ;
+    font-size: 25px;
+}
+
+.tohl-two{
+    width: 90%;
+    height: 36%;
+    background-color: rgb(0, 0, 0, 0.4);
+    box-shadow: inset 0px 0px 2px 2px cyan;
+    margin-top: 6%;
+}
+.tohl-two p{
+    color: white;
+    height: 30px;
+    text-align: center;
+    padding: 0 3rem 0 3rem;
+    padding-top:3%;
+}
+.tohl-two-text{
+    font-size: 23px;
+}
+
+.tohl-three{
+    width: 90%;
+    height: 13%;
+    background-color: rgb(0, 0, 0, 0.4);
+    box-shadow: inset 0px 0px 2px 2px cyan;
+    margin-top: 6%;
+}
+.tohl-three p{
+    color: white;
+    height: 30px;
+    text-align: center;
+    padding-top:3.5%;
+}
+.tohl-three-advice{
+    font-size: 28px;
+}
+
+
+
+/*    VIDEOCLIP      */
+.container-videoclip{
+    background-color: black;
+}
+#video-clip{
+    width: 100%;
+    display: flex;
+    margin: 0 !important; 
+    padding: 0 !important;
+    background-color: red !important;
+}
+.video-clip{    
+    text-align: center;
+    margin-bottom: 80px;
+}
+.video-clip iframe{    
+    height: 75vh;
+    width:70%;
+}
+.video-clip-headline h1{
+    margin-top: 60px;
+    margin-bottom: 35px;
+    text-align: center;
+    color: white;
+}
+
+/*     ABOUT VIDEO         */
+
+.about-video-container{
+    margin-top: 4%;
+}
+#about{
+    text-align: center;
+}
+.types-location{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.about-video-items{
+    background-color: black;
+}
+.about-video-left{
+    background-color: black;
+}
+.about-video-left span{
+    color:white;
+    }
+.about-video-right{
+    background-color: black;
+}
+.about-video-right span, .about-video-right h3{
+    color:white;
+}
+.about-video-right span{
+    font-size: 13px;
+}
+.about-video-right h3{
+    font-size: 20px;
+}
+.locatioon{
+    margin-top: 45px;
+}
+.about-video-photos{
+    margin-top: 25px;
+}
+
+/*     ABOUT THE PEOPLE       */
+#about-people{
+    width: 100%;
+}
+#about-people h3{
+    color: black;
+    text-align: center;
+    margin-top: 6%;
+}
+.about-video-people{
+    display: flex;
+}
+
+.people-image {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.people-image img{
+    border-radius: 50%;
+    height: 70%;
+    width: 70%;
+}
+.people-profession{
+    text-align: center;
+    font-size: 15px;
+}
+.people-name{
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+
+/*     ABOUT an artists       */
+
+#about-artists, #events {
+text-align: center;
+margin-top: 6%;
+}
+.about-artists-two{
+    display: flex;
+}
+.about-artists-two img{
+    height: 40px;
+    width: 40px;
+}
+.about-artists-two-left{
+    margin: 20px;
+}
+.about-artists-two-right-bot{
+    display: flex;
+    height: 34%;
+}
+.about-artists-two-right-mid{
+    display: flex;
+    height: 33%;
+
+}
+.about-artists-two-right-top{
+    display: flex;
+    height: 33%;
+}
+.artists-ig, .artists-spotify,.artists-applemusic, .artists-soundcloud, .artists-twitter{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+
+.about-artists-events{
+    display:flex;
+    height: 7vh;
+}
+.about-artists-events-field{
+    display:flex
+}
+h6{
+    padding: 0;
+    font-size: 25px;
+}
+#events span{
+color:rgb(130, 130, 130);
+margin: 8px 0px;
+}
+.about-artists-events{
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*    PARTNERS       */
+
+
+
+#partners h1{
+    margin-top: 10%;
+    text-align: center;
+}
+.partners{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.partners-logo img{
+    max-width: 200px;
+}
+
+#contact{
+    background-color: black;
+    height: 30vh;
+    width: 100%;
+    display: flex;
+}
+
+#contact h6, #contact a {
+    color: white;
+}
+.contact-left {
+    height: 69%;
+    width: 100%;
+    margin-top: 3.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-left img{
+    height: 100%;
+    width: 30%;
+}
+.contact-mid {
+    height: 69%;
+    width: 100%;
+    margin-top: 3.3%;
+}
+.contact-right {
+    height: 69%;
+    width: 100%;
+    margin-top: 3.3%;
+}
+.contact-left-down img{
+    height: 30px;
+    width: 30px;
+}
+.socials{
+    height: 5vh;
+    margin-top: -1px;
+    background-color: black;
+    display: flex;
+}
+.one, .two  {
+    display: none;
+  }
+footer {
+    clear: both;
+}
+.footer-container .row{
+    margin: 0px!important;
+}
+
+.woocommerce-product-gallery {
+    opacity: 100!important;
+}
+
+
+#primary .content-area{
+    max-width: 85vw!important;
+    width: 85vw!important;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    margin: 0px!important;
+}
+#main .site-main{
+    max-width: 80vw!important;
+    width: 80vw!important;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px!important;
+}
+.product.type-product{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100vw!important;
+    flex-direction: column;
+    max-width: 100vw!important;
+}
+/* .div.woocommerce-tabs.wc-tabs-wrapper{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw!important;
+    width: 100vw!important;
+} */
+#tab-description,
+#tab-additional_information,
+#tab-reviews,
+.woocommerce-Tabs-panel{
+    max-width: 70vw;
+}
+.wc-tabs-wrapper{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.cart-collaterals{
+    display: flex;
+}
+.woocommerce-shipping-fields, .woocommerce-billing-fields{
+    width: 50vw!important;
+}
+.products{
+    display: flex;
+    flex-direction: row;
+}
+/* #primary.content-area{
+    width: 100vw;
+    margin: 0rem 3rem 0rem 3rem;
+} */
+
+button{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 8%;
+    font-family: 'Zen Dots', cursive;
+}
+
+  @media only screen and (max-width: 767px) {
+
+    /*       HEADER           */
+    .links a{
+        font-size: 12px;
+    }
+
+
+
+    /*       HERO IMAGE           */
+    .hero_image img{
+        max-width: 200%;
+    }
+
+    .text-over-hero-left{
+        margin-top: 10%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        max-height: fit-content;
+    }
+
+    .video-clip iframe{ 
+        height: 400px;
+        width:100%;
+    }
+    .tohl-one{
+        height: 25vh;
+    }
+    .tohl-one-name{
+      font-size: 20px;
+    }
+    .tohl-one-track{
+        font-size: 40px;
+        margin-bottom: 5%;
+    }
+    .tohl-one-feat{
+        font-size: 20px;
+    }
+    .tohl-two{
+        height: fit-content!important;
+    max-height: 24vh;    
+    }
+    .tohl-two-text{
+        font-size: 20px;
+    }
+    
+    .tohl-three{
+        height: fit-content;
+        max-height: 15vh;
+    }
+    .tohl-three p{
+        font-size: 22px;
+        padding-top: 4.5%;
+    }
+    /*       ABOUT THE VIDEOCLIP           */
+
+
+    .about-video-container{
+        margin-top: 10%;
+        max-width: 100%;
+    }
+
+    .about-video-items{
+        background-color: black;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+    .about-video-left{
+        background-color: black;
+        width: 100%;
+    }
+    .all{
+        max-width: 100%;
+    }
+    .about-video-left span{
+        color:white;
+        }
+    .about-video-right{
+        background-color: black;
+    }
+    .about-video-right span, .about-video-right h3{
+        color:white;
+    }
+    .about-video-right span{
+        font-size: 13px;
+    }
+    .about-video-right h3{
+        font-size: 20px;
+    }
+    .locatioon{
+        margin-top: 45px;
+    }
+    .about-video-photos{
+        margin-top: 25px;
+    }
+
+    /*       ABOUT THE PEOPLE           */
+
+    .people-image img{
+        height: 200%;
+        width: 200%;
+    }
+    .people-profession{
+        font-size: 8.5px;
+    }
+    .people-name{
+        text-align: center;
+        font-size: 7px;
+    }
+    /*       About the Artists           */
+
+    .about-people-container,
+    .about-artists-container{
+        max-width: none;
+    }
+        .about-people-description{
+            display: flex;
+        }
+        .about-artists-two{
+            display: block;
+        }
+        .about-artists-two-left{
+            margin: 0px;
+            text-align: left;
+        }
+        .about-artists-two-left span{
+           font-size: 9px;
+        }
+        .about-artists-two-right-bot{
+            height: 20%;
+        }
+        .about-artists-two-right-mid{
+            height: 20%;
+        
+        }
+        .about-artists-two-right-top{
+            height: 20%;
+        }
+        .about-artists-two img{
+            height: 30px;
+            margin: 20%;
+            width: 30px;
+        }
+        
+        
+        
+        .about-artists-events{
+            height: 5vh;
+        }
+        .about-artists-events-field{
+            font-size: 10px;
+        }
+        .about-artists-events-field h6{
+            font-size: 11px;
+        }
+
+        
+    /*       Partners & CONTACT       */
+
+    .partners-logo img{
+        max-width: 100px;
+    }
+    
+
+    #contact{
+        height: 18vh;
+    }
+    #contact h6{
+        font-size: 17px;
+    }
+
+    .contact-left img{
+        width: 50%;
+    }
+  }
