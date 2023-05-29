@@ -35,25 +35,25 @@
 
                                 <div class="about-artists-two-right-top col-md-12">
                                     <div class="col-6 artists-ig">
-                                        <a href="<?php echo $aboutartists["instagram"] ?>"><img src="http://finalprojectmostwanted.local/wp-content/uploads/2023/05/instagram-copy.png" alt=""></a>
+                                        <a href="<?php echo $aboutartists["instagram"] ?>"><img src="http://stelzer-jakub.eu/wp-content/uploads/2023/05/instagram-copy.png" alt=""></a>
                                     </div>
                                     <div class="col-6 artists-spotify">
-                                        <a href="<?php echo $aboutartists["spotify"] ?>"><img src="http://finalprojectmostwanted.local/wp-content/uploads/2023/05/spotify.png" alt=""></a>
+                                        <a href="<?php echo $aboutartists["spotify"] ?>"><img src="http://stelzer-jakub.eu/wp-content/uploads/2023/05/spotify.png" alt=""></a>
                                     </div>
                                 </div>
 
 
                                 <div class="about-artists-two-right-mid col-md-12">
                                     <div class="col-6 artists-applemusic">
-                                        <a href="<?php echo $aboutartists["applemusic"] ?>"><img src="http://finalprojectmostwanted.local/wp-content/uploads/2023/05/music.png" alt=""></a>
+                                        <a href="<?php echo $aboutartists["applemusic"] ?>"><img src="http://stelzer-jakub.eu/wp-content/uploads/2023/05/music.png" alt=""></a>
                                     </div>
                                     <div class="col-6 artists-soundcloud">
-                                        <a href="<?php echo $aboutartists["soundcloud"] ?>"><img src="http://finalprojectmostwanted.local/wp-content/uploads/2023/05/soundcloud.png" alt=""></a>
+                                        <a href="<?php echo $aboutartists["soundcloud"] ?>"><img src="http://stelzer-jakub.eu/wp-content/uploads/2023/05/soundcloud.png" alt=""></a>
                                     </div>
                                 </div>
                                 <div class="about-artists-two-right-bot col-md-12">
                                     <div class="col-md-12 artists-twitter">
-                                        <a href="<?php echo $aboutartists["twitter"] ?>"><img src="http://finalprojectmostwanted.local/wp-content/uploads/2023/05/twitter.png" alt=""></a>
+                                        <a href="<?php echo $aboutartists["twitter"] ?>"><img src="http://stelzer-jakub.eu/wp-content/uploads/2023/05/twitter.png" alt=""></a>
                                     </div>
                                 </div>
                             </div>
@@ -81,25 +81,25 @@
 
                                 <div class="about-artists-two-right-top col-md-12">
                                     <div class="col-6 artists-ig">
-                                        <a href="<?php echo $aboutartists["instagram"] ?>"><img src="http://finalprojectmostwanted.local/wp-content/uploads/2023/05/instagram-copy.png" alt=""></a>
+                                        <a href="<?php echo $aboutartists["instagram"] ?>"><img src="http://stelzer-jakub.eu/wp-content/uploads/2023/05/instagram-copy.png" alt=""></a>
                                     </div>
                                     <div class="col-6 artists-spotify">
-                                        <a href="<?php echo $aboutartists["spotify"] ?>"><img src="http://finalprojectmostwanted.local/wp-content/uploads/2023/05/spotify.png" alt=""></a>
+                                        <a href="<?php echo $aboutartists["spotify"] ?>"><img src="http://stelzer-jakub.eu/wp-content/uploads/2023/05/spotify.png" alt=""></a>
                                     </div>
                                 </div>
 
 
                                 <div class="about-artists-two-right-mid col-md-12">
                                     <div class="col-6 artists-applemusic">
-                                        <a href="<?php echo $aboutartists["applemusic"] ?>"><img src="http://finalprojectmostwanted.local/wp-content/uploads/2023/05/music.png" alt=""></a>
+                                        <a href="<?php echo $aboutartists["applemusic"] ?>"><img src="http://stelzer-jakub.eu/wp-content/uploads/2023/05/music.png" alt=""></a>
                                     </div>
                                     <div class="col-6 artists-soundcloud">
-                                        <a href="<?php echo $aboutartists["soundcloud"] ?>"><img src="http://finalprojectmostwanted.local/wp-content/uploads/2023/05/soundcloud.png" alt=""></a>
+                                        <a href="<?php echo $aboutartists["soundcloud"] ?>"><img src="http://stelzer-jakub.eu/wp-content/uploads/2023/05/soundcloud.png" alt=""></a>
                                     </div>
                                 </div>
                                 <div class="about-artists-two-right-bot col-md-12">
                                     <div class="col-md-12 artists-twitter">
-                                        <a href="<?php echo $aboutartists["twitter"] ?>"><img src="http://finalprojectmostwanted.local/wp-content/uploads/2023/05/twitter.png" alt=""></a>
+                                        <a href="<?php echo $aboutartists["twitter"] ?>"><img src="http://stelzer-jakub.eu/wp-content/uploads/2023/05/twitter.png" alt=""></a>
                                     </div>
                                 </div>
                             </div>
